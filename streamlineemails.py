@@ -12,12 +12,12 @@ import cv2
 # et up your Gmail IMAP credentials
 
 IMAP_SERVER = "imap.gmail.com"
-EMAIL_ACCOUNT = "tusharsingh291995@gmail.com"
-EMAIL_PASSWORD = "ielwfkjrbmbmklzt"
+EMAIL_ACCOUNT = "xxxxx@gmail.com"
+EMAIL_PASSWORD = "xxxxxxxxxxx"
 IMAP_PORT = 993
 
 # Initialize Groq Client
-os.environ["GROQ_API_KEY"] = "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"
+os.environ["GROQ_API_KEY"] = "xxxxxxxxxxxxxxxxx"
 groq_client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 
 # Create DataFrame for extracted data
